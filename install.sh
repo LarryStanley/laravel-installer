@@ -1,18 +1,18 @@
 #!/bin/bash
 
-sudo add-apt-repository ppa:ondrej/php5-5.6
+sudo add-apt-repository ppa:ondrej/php
 sudo apt-get update
 sudo apt-get upgrade
 
-sudo apt-get install apache2 -y
-sudo apt-get install php5 -y
+sudo apt-get install nginx -y
+sudo apt-get install php7.0 -y
 sudo apt-get install mysql-server -y
-sudo apt-get install php5-mysql -y
-sudo apt-get install php5-json -y
+sudo apt-get install php7.0-mysql -y
+sudo apt-get install php7.0-json -y
 sudo apt-get install unzip -y
 sudo apt-get install curl -y
 sudo apt-get install openssl -y
-sudo apt-get install php5-mcrypt -y
+sudo apt-get install php57.0-mcrypt -y
 sudo php5enmod mcrypt -y
 sudo apt-get install -y git-core -y
 sudo a2enmod rewrite -y
