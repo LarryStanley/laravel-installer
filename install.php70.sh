@@ -15,6 +15,8 @@ sudo apt-get install openssl
 sudo apt-get install -y git-core -y
 sudo a2enmod rewrite
 sudo service apache2 restart
+sudo apt-get install php7.0-dom
+sudo apt-get install php7.0-mbstring
 
 curl -sS https://getcomposer.org/installer | php 
 sudo mv composer.phar /usr/local/bin/composer
